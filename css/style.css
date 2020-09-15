@@ -1,0 +1,48 @@
+.header-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-image: linear-gradient(to bottom, #000116, #02041a, #03071e, #040b22, #030e26, #03122a, #02152e, #011832, #011c37, #01213c, #012541, #012a46);
+	border: 2px solid #000116;
+}
+.nav-ul {
+	display: flex;
+	flex-direction: row;
+}
+.nav-li{
+	margin-right: 30px;
+	color: #d0d5da;
+}
+.logo {
+	width: 50px;
+}
+.container {
+	width: 100%;
+	background-image: linear-gradient(to bottom, #000116, #02041a, #03071e, #040b22, #030e26, #03122a, #02152e, #011832, #011c37, #01213c, #012541, #012a46);
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+.text {
+	width: 40%;
+	background-color: linear-gradient(to bottom, #000116, #02041a, #03071e, #040b22, #030e26, #03122a, #02152e, #011832, #011c37, #01213c, #012541, #012a46);
+	color: #d0d5da;
+
+}
+.four-images{
+	background-image: linear-gradient(to bottom, #012a46, #012541, #01213c, #011c37, #011832, #02152e, #03122a, #030e26, #040b22, #03071e, #02041a, #000116);
+	display: flex;
+	justify-content: space-around;
+	padding: 15px;
+
+}
+.mind {
+	width: 200px;
+}
+.burger-bar {
+	color: #fff;
+	font-size: 30px;
+}

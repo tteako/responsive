@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+	.container {
+		flex-direction: column;
+	}
+	.text {
+		width: 100%;
+		padding: 20px;
+	}
+	.four-images {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.iframe {
+		width: 100%;
+		padding: 2%;
+	}
+	.four-images img {
+		margin-right: 20px;
+
+	}
+}
+
+@media (max-width: 480px) {
+	.text {
+		width: 100%;
+	}
+	.iframe {
+		width: 100%;
+	}
+}
+@media (max-width: 320px) {
+	.navigation {
+		display: none;
+	}
+	.burger-bar {
+		display: block;
+		color: white;
+	}
+}
